@@ -1,0 +1,44 @@
+---
+title: "Amazon Notebook description"
+output: html_notebook
+---
+
+Description
+Goal
+The goal of collecting the "Amazon sale prices" dataset is to track and analyze pricing trends of products on the Amazon platform, helping businesses and consumers make informed decisions about buying and selling products while also monitoring market dynamics and competitiveness.
+
+link to dataset: https://www.kaggle.com/datasets/karkavelrajaj/amazon-sales-dataset
+
+1.Classification
+We want to group the product link that has the highest rating and a good rating title so we can determine the product that people prefer to buy from amazon
+
+2.Defect predication Goal
+The goal of defect prediction for the "Amazon sale prices" dataset is to identify and predict potential pricing anomalies, errors, or irregularities that could negatively impact product listings or customer experiences, enabling Amazon or sellers to take corrective actions promptly.
+
+Number of attribute:16
+Number of objects:1466
+| Attribute Name      | Data Type             | Description                                     | 
+| ---------------     | --------------------- | ----------------------------------------------- | 
+| Product_ID          | Nominal               | The product ID                                  | 
+| Product_name        | Nominal               | The name of the product                         | 
+| Category            | Nominal               | Categories of product                           |
+| Discounted_price    | Numeric-ratio         | The discount price                              | 
+| Actual_price        | Numeric-ratio         | The actual price                                |
+| Discount_Percentage | Ordinal               | Percentage of discount for the product          |
+| Rating              | Ordinal               | The rating of product                           |
+| Rating_count        | Ordinal               | Number of poeple who rated                      |
+| About_product       | Nominal               | description about the product                   | 
+| user_id             | Nominal               | users ID                                        |
+| Review_title        | Nominal               | The review title of the product                 |
+| Review_content      | Nominal               | Talks about review content of the product       |
+| Img-Link            | Nominal               | An image of the product                         |
+| Product_link        | Nominal               | A link to the product                           |
+
+```{r}
+amazon <- read_excel("C:/Users/Tshah/OneDrive/Desktop/amazon.xlsx")
+View(amazon)
+head(amazon)
+str(amazon)
+```
+
+
