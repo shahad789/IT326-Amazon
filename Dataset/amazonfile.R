@@ -1,4 +1,2 @@
-import pandas as pd
-
-df = pd.read_excel (r'C:\Users\(NAME)\Desktop\(FILENAME).xlsx')
-print (df)
+amazon <- read_excel("C:/Users/Tshah/OneDrive/Desktop/amazon.xlsx")
+View(amazon)
