@@ -1,7 +1,8 @@
 # IT326-Amazon
 
 
-<p>The motivation for working on the "Amazon sales dataset" is to gain insights into Amazon's sales patterns, and product performance, which can inform marketing strategies, inventory management, and overall business growth for both Amazon and its sellers, which can be based off the ratings and discount available that makes the product purchasable.</p>
+<p>
+The "Amazon sales dataset" is a valuable resource for gaining insights into Amazon's sales patterns and product performance. It provides essential information for optimizing marketing strategies, streamlining inventory management, and fostering overall business growth for both Amazon and its sellers. These insights are often based on factors such as product ratings, customer reviews, and discounts, which can significantly influence a product's purchaseability and success in the marketplace</p>
 
 
 
